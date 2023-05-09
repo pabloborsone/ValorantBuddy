@@ -10,7 +10,6 @@
 		82AAA6A92A0AF4BB0009A79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6A82A0AF4BB0009A79D /* AppDelegate.swift */; };
 		82AAA6AB2A0AF4BB0009A79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6AA2A0AF4BB0009A79D /* SceneDelegate.swift */; };
 		82AAA6AD2A0AF4BB0009A79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6AC2A0AF4BB0009A79D /* ViewController.swift */; };
-		82AAA6B02A0AF4BB0009A79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AAA6AE2A0AF4BB0009A79D /* Main.storyboard */; };
 		82AAA6B22A0AF4BC0009A79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AAA6B12A0AF4BC0009A79D /* Assets.xcassets */; };
 		82AAA6B52A0AF4BC0009A79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AAA6B32A0AF4BC0009A79D /* LaunchScreen.storyboard */; };
 		82AAA6C02A0AF4BC0009A79D /* ValorantBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6BF2A0AF4BC0009A79D /* ValorantBuddyTests.swift */; };
@@ -40,7 +39,6 @@
 		82AAA6A82A0AF4BB0009A79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AAA6AA2A0AF4BB0009A79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82AAA6AC2A0AF4BB0009A79D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82AAA6AF2A0AF4BB0009A79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82AAA6B12A0AF4BC0009A79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82AAA6B42A0AF4BC0009A79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82AAA6B62A0AF4BC0009A79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				82AAA6A82A0AF4BB0009A79D /* AppDelegate.swift */,
 				82AAA6AA2A0AF4BB0009A79D /* SceneDelegate.swift */,
 				82AAA6AC2A0AF4BB0009A79D /* ViewController.swift */,
-				82AAA6AE2A0AF4BB0009A79D /* Main.storyboard */,
 				82AAA6B12A0AF4BC0009A79D /* Assets.xcassets */,
 				82AAA6B32A0AF4BC0009A79D /* LaunchScreen.storyboard */,
 				82AAA6B62A0AF4BC0009A79D /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				82AAA6B52A0AF4BC0009A79D /* LaunchScreen.storyboard in Resources */,
 				82AAA6B22A0AF4BC0009A79D /* Assets.xcassets in Resources */,
-				82AAA6B02A0AF4BB0009A79D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82AAA6AE2A0AF4BB0009A79D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82AAA6AF2A0AF4BB0009A79D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82AAA6B32A0AF4BC0009A79D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,9 +428,9 @@
 				DEVELOPMENT_TEAM = PU77427YKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ValorantBuddy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,9 +456,9 @@
 				DEVELOPMENT_TEAM = PU77427YKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ValorantBuddy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
