@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AAA6A92A0AF4BB0009A79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6A82A0AF4BB0009A79D /* AppDelegate.swift */; };
+		82AAA6AB2A0AF4BB0009A79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6AA2A0AF4BB0009A79D /* SceneDelegate.swift */; };
+		82AAA6AD2A0AF4BB0009A79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6AC2A0AF4BB0009A79D /* ViewController.swift */; };
+		82AAA6B02A0AF4BB0009A79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AAA6AE2A0AF4BB0009A79D /* Main.storyboard */; };
+		82AAA6B22A0AF4BC0009A79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AAA6B12A0AF4BC0009A79D /* Assets.xcassets */; };
+		82AAA6B52A0AF4BC0009A79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AAA6B32A0AF4BC0009A79D /* LaunchScreen.storyboard */; };
+		82AAA6C02A0AF4BC0009A79D /* ValorantBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6BF2A0AF4BC0009A79D /* ValorantBuddyTests.swift */; };
+		82AAA6CA2A0AF4BC0009A79D /* ValorantBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6C92A0AF4BC0009A79D /* ValorantBuddyUITests.swift */; };
+		82AAA6CC2A0AF4BC0009A79D /* ValorantBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAA6CB2A0AF4BC0009A79D /* ValorantBuddyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AAA6BC2A0AF4BC0009A79D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AAA69D2A0AF4BB0009A79D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AAA6A42A0AF4BB0009A79D;
+			remoteInfo = ValorantBuddy;
+		};
+		82AAA6C62A0AF4BC0009A79D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AAA69D2A0AF4BB0009A79D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AAA6A42A0AF4BB0009A79D;
+			remoteInfo = ValorantBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82AAA6A52A0AF4BB0009A79D /* ValorantBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValorantBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AAA6A82A0AF4BB0009A79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82AAA6AA2A0AF4BB0009A79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82AAA6AC2A0AF4BB0009A79D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82AAA6AF2A0AF4BB0009A79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82AAA6B12A0AF4BC0009A79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82AAA6B42A0AF4BC0009A79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82AAA6B62A0AF4BC0009A79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AAA6BB2A0AF4BC0009A79D /* ValorantBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValorantBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AAA6BF2A0AF4BC0009A79D /* ValorantBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantBuddyTests.swift; sourceTree = "<group>"; };
+		82AAA6C52A0AF4BC0009A79D /* ValorantBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValorantBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AAA6C92A0AF4BC0009A79D /* ValorantBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantBuddyUITests.swift; sourceTree = "<group>"; };
+		82AAA6CB2A0AF4BC0009A79D /* ValorantBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AAA6A22A0AF4BB0009A79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AAA6B82A0AF4BC0009A79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AAA6C22A0AF4BC0009A79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AAA69C2A0AF4BB0009A79D = {
+			isa = PBXGroup;
+			children = (
+				82AAA6A72A0AF4BB0009A79D /* ValorantBuddy */,
+				82AAA6BE2A0AF4BC0009A79D /* ValorantBuddyTests */,
+				82AAA6C82A0AF4BC0009A79D /* ValorantBuddyUITests */,
+				82AAA6A62A0AF4BB0009A79D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AAA6A62A0AF4BB0009A79D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AAA6A52A0AF4BB0009A79D /* ValorantBuddy.app */,
+				82AAA6BB2A0AF4BC0009A79D /* ValorantBuddyTests.xctest */,
+				82AAA6C52A0AF4BC0009A79D /* ValorantBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AAA6A72A0AF4BB0009A79D /* ValorantBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				82AAA6A82A0AF4BB0009A79D /* AppDelegate.swift */,
+				82AAA6AA2A0AF4BB0009A79D /* SceneDelegate.swift */,
+				82AAA6AC2A0AF4BB0009A79D /* ViewController.swift */,
+				82AAA6AE2A0AF4BB0009A79D /* Main.storyboard */,
+				82AAA6B12A0AF4BC0009A79D /* Assets.xcassets */,
+				82AAA6B32A0AF4BC0009A79D /* LaunchScreen.storyboard */,
+				82AAA6B62A0AF4BC0009A79D /* Info.plist */,
+			);
+			path = ValorantBuddy;
+			sourceTree = "<group>";
+		};
+		82AAA6BE2A0AF4BC0009A79D /* ValorantBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				82AAA6BF2A0AF4BC0009A79D /* ValorantBuddyTests.swift */,
+			);
+			path = ValorantBuddyTests;
+			sourceTree = "<group>";
+		};
+		82AAA6C82A0AF4BC0009A79D /* ValorantBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82AAA6C92A0AF4BC0009A79D /* ValorantBuddyUITests.swift */,
+				82AAA6CB2A0AF4BC0009A79D /* ValorantBuddyUITestsLaunchTests.swift */,
+			);
+			path = ValorantBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AAA6A42A0AF4BB0009A79D /* ValorantBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AAA6CF2A0AF4BC0009A79D /* Build configuration list for PBXNativeTarget "ValorantBuddy" */;
+			buildPhases = (
+				82AAA6A12A0AF4BB0009A79D /* Sources */,
+				82AAA6A22A0AF4BB0009A79D /* Frameworks */,
+				82AAA6A32A0AF4BB0009A79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValorantBuddy;
+			productName = ValorantBuddy;
+			productReference = 82AAA6A52A0AF4BB0009A79D /* ValorantBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82AAA6BA2A0AF4BC0009A79D /* ValorantBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AAA6D22A0AF4BC0009A79D /* Build configuration list for PBXNativeTarget "ValorantBuddyTests" */;
+			buildPhases = (
+				82AAA6B72A0AF4BC0009A79D /* Sources */,
+				82AAA6B82A0AF4BC0009A79D /* Frameworks */,
+				82AAA6B92A0AF4BC0009A79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AAA6BD2A0AF4BC0009A79D /* PBXTargetDependency */,
+			);
+			name = ValorantBuddyTests;
+			productName = ValorantBuddyTests;
+			productReference = 82AAA6BB2A0AF4BC0009A79D /* ValorantBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82AAA6C42A0AF4BC0009A79D /* ValorantBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AAA6D52A0AF4BC0009A79D /* Build configuration list for PBXNativeTarget "ValorantBuddyUITests" */;
+			buildPhases = (
+				82AAA6C12A0AF4BC0009A79D /* Sources */,
+				82AAA6C22A0AF4BC0009A79D /* Frameworks */,
+				82AAA6C32A0AF4BC0009A79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AAA6C72A0AF4BC0009A79D /* PBXTargetDependency */,
+			);
+			name = ValorantBuddyUITests;
+			productName = ValorantBuddyUITests;
+			productReference = 82AAA6C52A0AF4BC0009A79D /* ValorantBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AAA69D2A0AF4BB0009A79D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					82AAA6A42A0AF4BB0009A79D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					82AAA6BA2A0AF4BC0009A79D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 82AAA6A42A0AF4BB0009A79D;
+					};
+					82AAA6C42A0AF4BC0009A79D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 82AAA6A42A0AF4BB0009A79D;
+					};
+				};
+			};
+			buildConfigurationList = 82AAA6A02A0AF4BB0009A79D /* Build configuration list for PBXProject "ValorantBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AAA69C2A0AF4BB0009A79D;
+			productRefGroup = 82AAA6A62A0AF4BB0009A79D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AAA6A42A0AF4BB0009A79D /* ValorantBuddy */,
+				82AAA6BA2A0AF4BC0009A79D /* ValorantBuddyTests */,
+				82AAA6C42A0AF4BC0009A79D /* ValorantBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AAA6A32A0AF4BB0009A79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AAA6B52A0AF4BC0009A79D /* LaunchScreen.storyboard in Resources */,
+				82AAA6B22A0AF4BC0009A79D /* Assets.xcassets in Resources */,
+				82AAA6B02A0AF4BB0009A79D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AAA6B92A0AF4BC0009A79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AAA6C32A0AF4BC0009A79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AAA6A12A0AF4BB0009A79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AAA6AD2A0AF4BB0009A79D /* ViewController.swift in Sources */,
+				82AAA6A92A0AF4BB0009A79D /* AppDelegate.swift in Sources */,
+				82AAA6AB2A0AF4BB0009A79D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AAA6B72A0AF4BC0009A79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AAA6C02A0AF4BC0009A79D /* ValorantBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AAA6C12A0AF4BC0009A79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AAA6CC2A0AF4BC0009A79D /* ValorantBuddyUITestsLaunchTests.swift in Sources */,
+				82AAA6CA2A0AF4BC0009A79D /* ValorantBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AAA6BD2A0AF4BC0009A79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AAA6A42A0AF4BB0009A79D /* ValorantBuddy */;
+			targetProxy = 82AAA6BC2A0AF4BC0009A79D /* PBXContainerItemProxy */;
+		};
+		82AAA6C72A0AF4BC0009A79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AAA6A42A0AF4BB0009A79D /* ValorantBuddy */;
+			targetProxy = 82AAA6C62A0AF4BC0009A79D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AAA6AE2A0AF4BB0009A79D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AAA6AF2A0AF4BB0009A79D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82AAA6B32A0AF4BC0009A79D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AAA6B42A0AF4BC0009A79D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AAA6CD2A0AF4BC0009A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82AAA6CE2A0AF4BC0009A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82AAA6D02A0AF4BC0009A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU77427YKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ValorantBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = borsone.pablo.ValorantBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82AAA6D12A0AF4BC0009A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU77427YKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ValorantBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = borsone.pablo.ValorantBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82AAA6D32A0AF4BC0009A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU77427YKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = borsone.pablo.ValorantBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValorantBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ValorantBuddy";
+			};
+			name = Debug;
+		};
+		82AAA6D42A0AF4BC0009A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU77427YKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = borsone.pablo.ValorantBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValorantBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ValorantBuddy";
+			};
+			name = Release;
+		};
+		82AAA6D62A0AF4BC0009A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU77427YKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = borsone.pablo.ValorantBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValorantBuddy;
+			};
+			name = Debug;
+		};
+		82AAA6D72A0AF4BC0009A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU77427YKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = borsone.pablo.ValorantBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValorantBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AAA6A02A0AF4BB0009A79D /* Build configuration list for PBXProject "ValorantBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AAA6CD2A0AF4BC0009A79D /* Debug */,
+				82AAA6CE2A0AF4BC0009A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AAA6CF2A0AF4BC0009A79D /* Build configuration list for PBXNativeTarget "ValorantBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AAA6D02A0AF4BC0009A79D /* Debug */,
+				82AAA6D12A0AF4BC0009A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AAA6D22A0AF4BC0009A79D /* Build configuration list for PBXNativeTarget "ValorantBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AAA6D32A0AF4BC0009A79D /* Debug */,
+				82AAA6D42A0AF4BC0009A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AAA6D52A0AF4BC0009A79D /* Build configuration list for PBXNativeTarget "ValorantBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AAA6D62A0AF4BC0009A79D /* Debug */,
+				82AAA6D72A0AF4BC0009A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AAA69D2A0AF4BB0009A79D /* Project object */;
+}
